@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .image-pixelated {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Custom retro watering can cursor */
+body {
+  touch-action: manipulation;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Retro pixel scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #24140c;
+}
+::-webkit-scrollbar-thumb {
+  background: #7e5130;
+  border: 1px solid #3d2314;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8754b;
+}

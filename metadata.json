@@ -1,0 +1,6 @@
+{
+  "name": "Nông Trại Hoa 20/10 - Pixel Art Retro",
+  "description": "Game pixel art nông trại retro tặng hoa và những lời chúc trêu ghẹo siêu lầy lội, ngọt ngào nhân ngày Phụ nữ Việt Nam 20/10.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
